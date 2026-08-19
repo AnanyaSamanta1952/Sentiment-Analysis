@@ -29,6 +29,6 @@ Sentiment classifiers trained on one product category often fail on another — 
 | Model |	Accuracy |
 | --- | --- |
 | LSTM baseline |	77.00% |
-| **Fine-tuned BERT (unseen domain)** |	**91.25%** |
+| **Fine-tuned BERT (unseen domain)** |	**92.25%** |
 | Zero-shot pretrained BERT	| ~84% avg |
 | BERT + DANN	| 67.70% |
