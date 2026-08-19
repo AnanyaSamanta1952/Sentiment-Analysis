@@ -23,3 +23,12 @@ Sentiment classifiers trained on one product category often fail on another — 
 6. matplotlib>=3.7.0
 7. seaborn>=0.12.0
 8. numpy>=1.24.0
+
+<br>Results</br>
+
+| Model |	Accuracy |
+| --- | --- |
+| LSTM baseline |	77.00% |
+| **Fine-tuned BERT (unseen domain)** |	**91.25%** |
+| Zero-shot pretrained BERT	| ~84% avg |
+| BERT + DANN	| 67.70% |
